@@ -3,12 +3,12 @@
 console.log('Carregando lambda');
 const PESSOA = process.env.PESSOA;
 
-exports.handler = (event, context, callback) => {
-    console.log('Evento recebido:', JSON.stringify(event, null, 2));
+exports.handler = (event, context, callback) => { //O evento chamda essa função
+    console.log('Evento recebido:', JSON.stringify(event, null, 2)); //JSON.stringify(value[, replacer[, space]])
 
     const done = (err, res) => callback(null, {
         statusCode: err ? '400' : '200',
-        body: err ? err.message : JSON.stringify(res),
+        body: err ? err.message : JSON.stringify(res, null, 2),
         headers: {
             'Content-Type': 'application/json',
         },

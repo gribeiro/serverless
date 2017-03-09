@@ -1,0 +1,10 @@
+{
+  "name": "exemplo-cron-job",
+  "version": "0.0.1",
+  "description": "Exemplo de cron job - IPT",
+  "author": "Georges K. Ribeiro",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.73.0"
+  }
+}

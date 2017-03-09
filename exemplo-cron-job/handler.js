@@ -7,7 +7,6 @@
   Não esquecer de configurar  as variáveis de ambiente:
   AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 
-
   Permissões:
 {
     "Version": "201-10-17",

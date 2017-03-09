@@ -22,3 +22,8 @@ functions:
     events:
       - schedule: rate(2 minutes)
       - schedule: cron(0 12 * * ? *)
+#  ipt_http: #O invoke usa esse nome
+#    handler: handler2.ipt_http  #nome do arquivo.função
+#    events:
+#      - schedule: rate(2 minutes)
+#      - schedule: cron(0 12 * * ? *)
